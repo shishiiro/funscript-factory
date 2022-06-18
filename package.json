@@ -1,0 +1,8 @@
+{
+  "name": "funscript-factory",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:shishiiro/funscript-factory.git",
+  "author": "shishiiro",
+  "license": "MIT"
+}
