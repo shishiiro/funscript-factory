@@ -1,0 +1,7 @@
+{
+  "name": "funscript-factory",
+  "context": "..",
+  "dockerComposeFile": "docker-compose.yaml",
+  "service": "funscript-factory",
+  "workspaceFolder": "/opt/funscript-factory"
+}
