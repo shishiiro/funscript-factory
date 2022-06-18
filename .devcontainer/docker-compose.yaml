@@ -1,0 +1,14 @@
+version: '3'
+services:
+  funscript-factory:
+    restart: always
+    build: ..
+    container_name: 'funscript-factory'
+    working_dir: '/opt/funscript-factory/'
+    tty: true
+    ports:
+      - "0.0.0.0:8080:80"
+    volumes:
+      - type: bind
+        source: ../
+        target: /opt/funscript-factory
