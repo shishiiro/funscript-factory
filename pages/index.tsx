@@ -1,22 +1,19 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Link from 'next/link' //追記
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import type { NextPage } from 'next';
+import Head from 'next/head';
+import Link from 'next/link';
+import Image from 'next/image';
+import styles from '../styles/Home.module.css';
+import React from "react";
+import ReactDOM from "react-dom";
 
 const Home: NextPage = () => {
+  const x = 10;
   return (
-    <div className={styles.container}>
-      <main className={styles.main}>
-        <h1 className="title">
-          Read{' '}
-          <Link href="/samples/sample">
-            <a>this page!</a>
-          </Link>
-        </h1>
-      </main>
-    </div>
-  )
+    <>
+      <h1>Hello, World!</h1>
+      <p>second line here! {x * 20}</p>
+    </>
+  );
 }
 
-export default Home
+export default Home;
